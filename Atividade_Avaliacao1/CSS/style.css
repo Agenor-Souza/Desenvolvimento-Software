@@ -1,0 +1,40 @@
+label {
+
+	display: block;
+	float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+}    
+
+label, input {
+	width: 150px;
+	margin: 3px 0;
+}
+
+
+input {
+	width:100px;
+}
+
+.container {
+    display: flex;
+    margin: 20px auto;
+    max-width: 350px;
+    font-family: sans-serif;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: column-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
